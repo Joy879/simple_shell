@@ -7,48 +7,42 @@
 
 Shell is an environment in which we can run our commands, programs, and shell scripts.There are different flavors of a shell, just as there are different flavors of operating systems.Each flavor of shell has its own set of recognized commands and functions.
 
-# FILES
 
-project is created with:
-
-File1:
-
-File 2:
-
-File 2:
-
-# Requirments
+# Requirements
 
 simple_shell is designed to run in the Ubuntu linux environment and to be compiled using the GNU compiler collection v. gcc 4.8.4 with flags -Wall, -Werror, -Wextra, and -pedantic.
 
 # Installation
 
-clone this repostory *https://github.com/brianbryank/simple_shell.git
-Change directories into the repository: acd simple_shell
-Compile: gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
-Run the shell: ./hsh
-   # Example
-1.
-$ ./hsh
-$ pwd
-/home/username/
-$ ^D
+Clone this repository(https://github.com/Joy879/simple_shell.git)
+Change directories into the repository: 
+     cd simple_shell
+Compile using:
+     gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+Run the shell: 
+     ./hsh
+   
+# Example
+     1.
+          $ ./hsh
+          $ pwd
+          /home/username/
+          $ ^D
 
-2.
-$ ./hsh
-$ ls -l /tmp
--rw------- 1 username username 0 Dec 5 12:09 config-err-aAMZrR
-drwx------ 3 root root 4096 Dec 5 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-colord.service-V7DUzr
-drwx------ 3 root root 4096 Dec 5 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-rtkit-daemon.service-ANGvoV
-drwx------ 3 root root 4096 Dec 5 12:07 systemd-private-062a0eca7f2a44349733e78cb4abdff4-systemd-timesyncd.service-CdXUtH
--rw-rw-r-- 1 username username 0 Dec 5 12:09 unity_support_test.0
-$ ^D
-$
+     2.
+          $ ./hsh
+          $ ls -l /tmp
+          -rw------- 1 username username 0 Dec 5 12:09 config-err-aAMZrR
+          drwx------ 3 root root 4096 Dec 5 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-colord.service-V7DUzr
+          drwx------ 3 root root 4096 Dec 5 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-rtkit-daemon.service-ANGvoV
+          drwx------ 3 root root 4096 Dec 5 12:07 systemd-private-062a0eca7f2a44349733e78cb4abdff4-systemd-timesyncd.service-CdXUtH
+          -rw-rw-r-- 1 username username 0 Dec 5 12:09 unity_support_test.0
+          $ ^D
+          $
 
-3.
-run the program by executing the follwing command
-$ ./hsh
-$ ls
+     3.run the program by executing the follwing command
+          $ ./hsh
+          $ ls
 
 # List of functions and system calls we are allowed to use:
 

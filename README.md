@@ -15,11 +15,11 @@ simple_shell is designed to run in the Ubuntu linux environment and to be compil
 # Installation
 
 * Clone this repository(https://github.com/Joy879/simple_shell.git)
-* Change directories into the repository: 
+* Change directories into the repository:   
            cd simple_shell
-* Compile using:
+* Compile using:  
            gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
-* Run the shell: 
+* Run the shell:  
             ./hsh
    
 # Example
